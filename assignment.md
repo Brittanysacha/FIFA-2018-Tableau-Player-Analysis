@@ -17,18 +17,6 @@ Follow the steps below:
 
 3. Build at least 5 different visualizations to learn more about the dataset.
 
-Player Ratings and Attributes
-- What is the distribution of player ratings across different leagues and divisions? 
-      - Are there any leagues on the same division level that have significantly higher or lower player ratings compared to others?
-
-- What is the distribution of average player's wage value in Euros across each league and divisions?
-      - Highlight Stats and positions for players whose cost is >= 10% of the team budget.
-      - Which clubs pay the highest wages for players? Which clubs have the highest player values?
-
-- How does a player's age correlate with their overall and potential ratings?
-Which countries have the highest-rated players? Are there any countries that are overrepresented or underrepresented in the dataset?
-
-
 4. This table has 70 different features. Can you detect the most important features ? Why do you think these are important? Could you define a question for yourself? Try to learn more about these categories and find appropriate numerical features to study different trends in them. 
 
   - For example ,  the following features could be important for your analysis :
@@ -48,8 +36,22 @@ Which countries have the highest-rated players? Are there any countries that are
   - Show Me tables
 6. Try to find an interesting pattern, trend, outlier, etc. from the data used in the above steps.
 7. From step 5, try to detect meaningful keypoints. This is the starting point to think about your dashboard. 
+
+Player Ratings and Attributes
+- What is the distribution of player ratings across different leagues and divisions? 
+      - Are there any leagues on the same division level that have significantly higher or lower player ratings compared to others?
+
+- What is the distribution of average player's wage value in Euros across each league and divisions?
+      - Highlight Stats and positions for players whose cost is >= 10% of the team budget.
+      - Which clubs pay the highest wages for players? Which clubs have the highest player values?
+
+- How does a player's age correlate with their overall and potential ratings?
+Which countries have the highest-rated players? Are there any countries that are overrepresented or underrepresented in the dataset?
+
 8. Now that you are familiar with your dataset and your columns, in this step, come up with different questions which you will be answering and presenting at the end of this project.
+
 9. Create the dashboard to answer your questions that you came up with in step 8 and try to revise your questions along the way.
+
 10. Get ready to present your dashboard 
 
 

@@ -80,27 +80,73 @@ Taken together, these charts suggest that age plays an important role in determi
 
 These insights are valuable for team managers and talent scouts when making decisions about player recruitment and development. For example, understanding the peak years for players can help teams determine when to invest in younger players with high potential versus older players with more experience and developed skills but lower potential for improvement. Additionally, analyzing the dip in player rating at age of 33 can help teams better understand the potential risks of keeping older players on the team, as they may experience a decline in physical ability and overall performance.
 
-### Step : Detect the most important features ? Why do you think these are important? 
-
-
-
 
 ## Results
 I chose to complete this assignment based on the FIFA 18 database. I had a few main questions I wanted to answer using my data:
 
-##### Question 1. What is the distribution of players accross different leagues and nationalities?
+##### Question 1. What is the distribution of players accross different leagues and nationalities in FIFA 18?
+
+The FIFA 18 dataset contains information on over 17,000 players from various leagues and countries. Using Tableau, the data is visualised through two interactive maps to showcase the distribution of players across different leagues and nationalities.
+
+The league visualisation showcases that the highest concentration of players from the different leagues are in Europe, with countries such as England, Italy, Germany, France, and Spain having between 2-4 divisions represented in the game. Among these leagues, the lower division leagues in Europe appear to have the largest number of players. This could suggest that the top-flight leagues are more competitive. Although there are some larger groups of players across leagues in South America such as Colombia and Brazil, it is noticeable that non-European leagues have less of a presence across the FIFA 18 dataset. This could be due to the popularity of European League teams, with several teams having a large established overseas presence, as well as a long club history.
+
+Regarding nationality, the map shows that the majority of players in FIFA 18 originate from European countries such as Spain, Germany, France, and England, followed by South American countries like Brazil and Argentina. Nonetheless, there is a much larger representation of different countries with footballers originating from places where leagues are not included within the game. When looking further into nationality via different leagues, the visualisation further highlights that players in second division leagues are more likely to play in their local country. This could be associated with lower skilled players receiving lower wages among lower division leagues, which may make it more difficult to move around freely.
+
 
 ##### Question 2. How do the skills and attributes of football players vary across different nationalities?
 
+I created a second set of map visualisations to gain a better understanding of how various attributes of football players, such as dribbling, shooting, passing, and physicality, can vary across nationalities. Since certain regions in Europe and South America have more than one division and, thus, a diverse range of players, I deemed it necessary to not only consider the overall average but also to look at the average of the top 10 players from each region.
+
+Examining specific player attributes from different regions can provide insights into how nationalities approach the game of football. For instance, if a specific nationality has a higher average rating for dribbling, it may imply that this is a focal point in their training and player development. Conversely, if a particular nationality has a higher average rating for physical attributes, it may indicate that physicality is a crucial aspect of their playing style.
+
+The visualisations reveal some interesting findings. For example:
+
+- The South American region shows players with excellent dribbling, shooting, and physical attributes. Specifically, Argentina has the highest average rating for dribbling among South American countries, while Brazil has players with the highest average rating for shooting.
+
+- Players from African countries have higher average ratings for physicality attributes related to overall endurance such as strength and stamina, as well as physical attributes related to movement and control such as acceleration, sprint, and agility.
+
+- European players have higher average ratings for passing, dribbling, and defending. The data shows that countries such as Spain, Germany, and Italy have high average ratings for passing, while countries such as Belgium, France, and Portugal have high average ratings for dribbling. As for defending, countries such as Italy, England, and Germany tend to have higher average ratings.
+
+Overall, variations in the skills and attributes of football players across different nationalities could be attributed to a combination of cultural and environmental factors, as well as differences in training and development programmes. Nonetheless, it is important to note that these are general trends and that individual players' skills vary greatly across regions. This visualisation could gain better accuracy if the average player attributes were further broken down into separate maps based on division level (1st, 2nd, 3rd, 4th), or team ranking, which is an official feature by FIFA that ranks teams based on their performance in international competitions over the past four years.
+
 ##### Question 3. How does the aggregate player value differ across various football leagues and divisions?
+I created an interactive series of visualizations to better understand the lack of parity across football leagues and divisions within FIFA. They were broken down into first division teams, second division teams, and then third and fourth division teams. It is important to note that Germany and England were the only countries to have more than two divisions represented in the game.
+
+After reviewing the aggregate player values across leagues and divisions, it is apparent that the aggregate player value differs significantly not just across various football leagues and divisions but also within leagues and divisions. The leagues with the highest aggregate player values are the five biggest leagues in Europe:
+
+- English Premier League: approximately €5.9 billion,
+- Spanish La Liga: approximately €5.5 billion,
+- German Bundesliga: approximately €4.1 billion,
+- Italian Serie A: approximately €4 billion,
+- French Ligue 1: approximately €3.1 billion.
+
+Looking at individual clubs within the English Premier League as an example of disparity within leagues, the top six clubs (Manchester United, Manchester City, Liverpool, Arsenal, Chelsea, and Tottenham) account for a significant portion of the league's total player value at a combined value of approximately €3.34 billion, which is 56.4% of the aggregate league value. In contrast, the bottom six clubs (Huddersfield Town, Brighton & Hove Albion, Burnley, Bournemouth, West Bromwich Albion, and Swansea City) have a combined player value of approximately €0.77 billion, which is 13.02% of the aggregate league value. The club with the highest player value in the league is Chelsea at approximately €673 million. The club with the lowest aggregate league value is Huddersfield Town at approximately €87.6 million. There are even more significant differences in aggregate player value between the top-tier leagues and the lower divisions. Using the English leagues again as an example, the English Premier League's total player value is more than ten times the value of the English League Two (the fourth tier of English football).
+
+Overall, aggregate player value in football varies greatly across different leagues and divisions, with the top-tier leagues having significantly higher values compared to the lower divisions. A further step to gain further insight from this information would be to look at the correlation between league placement and player value or wages. I anticipate that those with higher team values would perform significantly better, although it would be interesting to observe differences among similarly valued teams.
 
 ##### Question 4. How do the different attributes contribute to the overall rating of each player?
+The final visualisation used was a heat map to determine the presence of high attributes across player positions. A few examples of some highlights that can be drawn from the data are included below:
 
-(Fill in which Option you chose, either 1 or 2. List the dataset you selected for the project if you selected Option 2. Also, discuss the visualizations you created, and why. For Option 2, also identify what your data question was, and how you went through the prompts.)
+- Strikers (ST) need attributes such as strength, positioning, finishing, and shot power. This indicates that the traits required from players best suited to be a striker include the ability to score goals, hold up play and be physical with defenders.
 
+- Left wingers (LW) excel in attributes such as sprint speed, dribbling and ball control, which make them highly suitable for playing on the outside of the pitch and controlling the ball. Furthermore, high ratings in finishing, shot power and long shots indicate that they are strong scorers. On the downside, LWs typically have lower ratings in defensive attributes such as marking, standing tackle and sliding tackle, which suggests that they may not be suitable for defensive positions.
+
+- For the right-back (RB) position, a player needs to have high Stamina, Sprint Speed and Strength to keep up with opponents on the wing. Defensively, they must possess excellent Standing Tackle, Interceptions and Marking skills. Attacking-wise, good Crossing, Short Passing and Dribbling abilities are crucial for providing crosses and maintaining possession. The player should also have strong Vision and Composure to make strategic decisions, while quick Reactions are necessary for rapid responses to the game.
+
+- Goalkeepers (GK) require attributes like GK handling, diving, reflexes, positioning and kicking to stop and distribute the ball. Vision and composure are also key for strategic decisions and staying calm. Physical attributes like strength, jumping, balance and agility are important for reaching, jumping and moving around the goal area.
+
+- For a centre back (CB), Composure, Aggression and Ball Control are important attributes. Composure helps them stay calm under pressure, Aggression gives them an edge in winning the ball, and Ball Control allows for effective distribution from the backline. Other attributes such as Dribbling, Crossing and Curve may be useful for attacking play, while Balance, Agility and Acceleration can help with quick movement and keeping up with opponents.
+
+- Key attributes for central midfielders (CM) include Stamina, Short Passing and Long Passing, as they need to be able to run up and down the field and distribute the ball effectively. Standing Tackle, Sprint Speed and Reactions are important defensive attributes for a CM, while Shot Power and Long Shots are useful for contributing to the team's attack.
+
+Further examples can be obtained by analyzing the heat map data, which can provide valuable insights into the specific areas that aspiring or developing players need to focus on to excel in a particular position. By identifying these key areas, coaches and trainers can help players improve their skills and work towards mastering the position they wish to play in.
+
+Moreover, heat map analysis can be a useful tool for scouts and managers when assessing potential new recruits or deciding on player positions within their team. By identifying a player's strengths and weaknesses based on their heat map data, coaches can guide them towards roles that best suit their skill set, or alternatively, help them develop the attributes needed to succeed in a different position. This can lead to a more effective use of resources and better team performance overall.
 
 ## Challenges 
-(discuss challenges you faced in the project)
+I did not have full access to all the data available on the FIFA 18 website in the FIFA 18 dataset. As a result, I manually added team information such as their league, country, and division. If I had relied only on readily available data, my results would have been inaccurate due to the large differences across divisions in terms of spending, resources, player ratings, and overall level of competition.
+
+Furthermore, I encountered a slight issue while trying to format my map within Tableau. To separate the different regions of the UK and be able to look at all the data, I had to use a dual axis map. Without this, the default setting for the United Kingdom was to refer only to English data. This would not only have created inaccuracy and led to missing data, but it could also have potentially offended certain people.
 
 ## Future Goals
-(what would you do if you had more time?)
+In terms of future research, it would be interesting to explore the impact of factors such as spending, resources, player ratings, and level of competition on aggregate player value. Additionally, looking at the correlation between team values and performance could provide valuable insights into the relationship between spending and success in football.

@@ -23,14 +23,16 @@ I chose to add country of play, league, and division level information to my dat
 
 ### Step 3. Build at least 5 different visualizations to learn more about the dataset.
 
-To get a better understanding of player ratings and the importance of player attributes for different positions, I broke down the 74 variables into some different groupings. 
+##### Player Positions
 
-For player positions, I created a calculated field using a IF statement to return "Defender", "Midfielder", "Attacker", or "Goalkeeper" for each player, based on their preferred positions.
+To get a better understanding of player ratings and the importance of player attributes for different positions, I broke down the 15 player position variables into some four catergories. 
 
-- Defenders: CB, RB, LB, RWB, LWB
-- Midfielders: CM, CAM, LM, RM, CDM
-- Attackers: ST, LW, RW, CF
-- Goalkeeper: GK
+This was done using a IF statement and return "Defender", "Midfielder", "Attacker", or "Goalkeeper" for each player, based on their preferred positions.
+
+    - Defenders: CB, RB, LB, RWB, LWB
+    - Midfielders: CM, CAM, LM, RM, CDM
+    - Attackers: ST, LW, RW, CF
+    - Goalkeeper: GK
 
 Breaking down the 15 independent variables into 4 catergorical variables made them significantly easier to analyse. I then used these catergorical fields to take a look at the amount of different players within each position across all leagues.
 
@@ -38,8 +40,18 @@ Breaking down the 15 independent variables into 4 catergorical variables made th
 
 The player breakdown was not surprising. As expected, goalkeepers had the lowest numbers as there is only one goalkeeper on a team of 11 at any given time, and 3-4 are usually listed on a 26-member team sheet at the start of a season. It was also expected to see a higher number of defenders and midfielders compared to strikers. This is because strikers have a more specialized role, with teams relying on a smaller number of them to score goals and create opportunities in the attacking third of the field. On the other hand, defenders and midfielders have a wider range of responsibilities, adapting to various attacking and defending roles based on the opposition and manager's preference.
 
+##### Average Player Value and Wage by Age
+The next graph I created aimed to visualize the relationship between age, player value, and wage in football, providing insights into how these variables change over time. The purpose of this graph would be to inform decisions related to player contracts, transfers, and team composition.
 
-For player attributes, I broke down the 31 different attributes into different catergories. Although it will be important to also look at these attributes as individual values. 
+![Average Player Value and Wage by Age]()
+
+The graph displays the average player value and wage per age for football (soccer) players. The horizontal axis represents age, ranging from 15 to 40 years old, while the vertical axis represents the average player value and wage in millions of pounds.
+
+Looking at the graph, we can see that both player value and wage increase until the age of 27, where they both reach their peak. After that, both values start to decrease gradually as players get older. This trend is consistent for both values, with the player value starting higher and decreasing faster than the wage as players age.
+
+Additionally, we can see that the gap between player value and wage increases as players get older, indicating that older players tend to be paid more relative to their market value. This could be due to factors such as experience, leadership skills, and a player's ability to perform consistently at a high level. Overall, this graph provides insight into the relationship between age, player value, and wage in football. It suggests that while younger players may have high potential, experienced and older players can bring valuable skills and leadership to a team, which may justify their higher wages.
+
+##### Top and Bottom 
 
 - Physical Attributes - This group includes Ball Control, Dribbling, Acceleration, Sprint Speed, Agility, and Balance. These attributes determine a player's ability to move with and without the ball, as well as their balance and control while dribbling.
 

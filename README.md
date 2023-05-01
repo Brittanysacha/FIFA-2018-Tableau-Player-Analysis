@@ -39,7 +39,7 @@ Breaking down the 15 independent variables into 4 catergorical variables made th
 The player breakdown was not surprising. As expected, goalkeepers had the lowest numbers as there is only one goalkeeper on a team of 11 at any given time, and 3-4 are usually listed on a 26-member team sheet at the start of a season. It was also expected to see a higher number of defenders and midfielders compared to strikers. This is because strikers have a more specialized role, with teams relying on a smaller number of them to score goals and create opportunities in the attacking third of the field. On the other hand, defenders and midfielders have a wider range of responsibilities, adapting to various attacking and defending roles based on the opposition and manager's preference.
 
 
-For player attributes:
+For player attributes, I broke down the 31 different attributes into different catergories. Although it will be important to also look at these attributes as individual values. 
 
 - Physical Attributes - This group includes Ball Control, Dribbling, Acceleration, Sprint Speed, Agility, and Balance. These attributes determine a player's ability to move with and without the ball, as well as their balance and control while dribbling.
 

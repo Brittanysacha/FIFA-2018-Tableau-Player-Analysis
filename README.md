@@ -1,7 +1,7 @@
 # Final-Project-Tableau
 
 # Project/Goals
-The goal of this project was to analyze the FIFA 2018 player dataset and create a dashboard that uncovers different features within the data. I placed a large focus on gaining insights into the trajectory of a football player's career across different divisions or leagues in various areas. In addition, I also explored the relationship between a player's overall rating and their performance in various attributes such as speed, shooting, passing, and dribbling, to identify which attributes have the greatest impact on a player's overall rating.
+The goal of this project was to analyze the FIFA 2018 player dataset and create a dashboard that uncovers different features within the data. I placed a large focus on gaining insight into the trajectory of football player careers across different divisions and leagues in various areas. In addition, I also explored the relationship between a player's overall rating and their performance in various attributes such as speed, shooting, passing, and dribbling, to identify which attributes have the greatest impact on a player's overall rating.
 
 # Process
 ### Step 1: Review Dataset:

@@ -36,7 +36,7 @@ This was done using a IF statement and return "Defender", "Midfielder", "Attacke
 
 Breaking down the 15 independent variables into 4 catergorical variables made them significantly easier to analyse. I then used these catergorical fields to take a look at the amount of different players within each position across all leagues.
 
-![Player Position Breakdown]()
+![Player Position Breakdown](https://github.com/Brittanysacha/Tableau-Project/blob/main/Images/Player%20Position%20Breakdown.png)
 
 The player breakdown was not surprising. As expected, goalkeepers had the lowest numbers as there is only one goalkeeper on a team of 11 at any given time, and 3-4 are usually listed on a 26-member team sheet at the start of a season. It was also expected to see a higher number of defenders and midfielders compared to strikers. This is because strikers have a more specialized role, with teams relying on a smaller number of them to score goals and create opportunities in the attacking third of the field. On the other hand, defenders and midfielders have a wider range of responsibilities, adapting to various attacking and defending roles based on the opposition and manager's preference.
 

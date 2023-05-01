@@ -88,11 +88,13 @@ These insights are valuable for team managers and talent scouts when making deci
 ## Results
 I chose to complete this assignment based on the FIFA 18 database. I had a few main questions I wanted to answer using my data:
 
-1. What is the correlation between player attributes (such as ball control, dribbling, acceleration, sprint speed, etc.) and overall player value for each position?
+##### Question 1. What is the distribution of players accross different leagues and nationalities?
 
-2. How do player wages in Euros vary across leagues and divisions? 
-    - Which clubs pay the highest wages and have the highest player values?
-    - Which player positions and statistics are associated with a cost of >= 10% of the team budget?
+##### Question 2. How do the skills and attributes of football players vary across different nationalities?
+
+##### Question 3. How does the aggregate player value differ across various football leagues and divisions?
+
+##### Question 4. How do the different attributes contribute to the overall rating of each player?
 
 (Fill in which Option you chose, either 1 or 2. List the dataset you selected for the project if you selected Option 2. Also, discuss the visualizations you created, and why. For Option 2, also identify what your data question was, and how you went through the prompts.)
 

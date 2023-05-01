@@ -55,9 +55,11 @@ On the other hand, the second graph displays a box plot of the lowest 10 club wa
 ### Average Player Value and Wage by Age
 The next graph I created aimed to visualize the relationship between age, player value, and wage in football, providing insights into how these variables change over time. The purpose of this graph would be to inform decisions related to player contracts, transfers, and team composition.
 
-![Average Player Value and Wage by Age]()
+![Average Player Wage by Age]()
 
-The graph displays the average player value and wage per age for football (soccer) players. The horizontal axis represents age, ranging from 15 to 40 years old, while the vertical axis represents the average player value and wage in millions of pounds.
+![Average Player Value by Age]()
+
+These graphs display the average player value and wage per age for football (soccer) players. The horizontal axis represents age, ranging from 16 to 40 years old, while the vertical axis represents the average player value and wage in millions of euros.
 
 Looking at the graph, we can see that both player value and wage increase until the age of 27, where they both reach their peak. After that, both values start to decrease gradually as players get older. This trend is consistent for both values, with the player value starting higher and decreasing faster than the wage as players age.
 

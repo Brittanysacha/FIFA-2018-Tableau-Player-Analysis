@@ -84,23 +84,20 @@ These insights are valuable for team managers and talent scouts when making deci
 
 ### Player Performance by Age
 
-I finally created two visualizations to examine correlations between player ages, attributes, and ratings within particualr positions. The purpose of these visualizations was to determine if there is a connection between age and the best performances for players. 
+I have created two visualizations to explore correlations between player ages, attributes, and ratings within specific positions, with the purpose of identifying potential connections between age and player performance.
 
-When looking at the charts with a birdseye view, it is generally observed that as players grow older, their on-field performance starts to decline. Goalkeepers appear to be an exception to this trend as they tend to improve with age and experience. This may be due to the fact that the goalkeeping position relies heavily on skills such as reflexes, decision-making, and experience, which are not significantly affected by age.
+![Player Performance by Age - Position]()
+![Player Performance by Age - Attribute]()
 
-I then decided to focus on a more thorough analysis of on one attribute - the overall rating of players to see whether there is a correlation with overall rating and age. When looking at the overall ratings for all players, the given equation and coefficients are the result of a statistical analysis that models the relationship between player attributes and age in the context of overall player performance. The p-value, which is less than 0.0001, indicates that the relationship between age and player attributes is statistically significant.
+- Please note that full access to different variables and their resulting correlations can be found [here](https://public.tableau.com/shared/DJJ9WP584?:display_count=n&:origin=viz_share_link) 
 
-The coefficients of the equation represent the estimated effect of age and age squared on player attributes. According to the coefficients, the effect of age on player attributes is positive, while the effect of age squared is negative. This suggests that player attributes increase with age, but at a decreasing rate.
+From a bird's-eye view, it appears that as players get older, their on-field performance tends to decline. However, goalkeepers seem to be an exception to this trend, as they tend to improve with age and experience. This could be due to the fact that the goalkeeping position relies heavily on skills such as reflexes, decision-making, and experience, which are not significantly affected by age.
 
-The intercept term represents the estimated value of player attributes when age and age squared are both equal to zero. However, the intercept term does not appear to be statistically significant, as indicated by the high p-value of 0.485926.
+To conduct a more in-depth analysis, I focused on the overall rating of players to see if there is a correlation with age. The correlation analysis shows that player attributes are influenced by age, with a non-linear relationship that includes a negative effect of age squared and a positive effect of age. The coefficients indicate that the effect of age on player attributes is positive but decreases with age. The intercept term is not statistically significant, indicating that it does not significantly contribute to the overall model.
 
-Overall, this equation and its coefficients suggest that age is an important factor in determining player attributes and overall performance, and that the relationship between age and player attributes is complex and non-linear. It is important to note that while the given equation and coefficients provide evidence of a significant relationship between age and player attributes, they do not necessarily imply causality. Other factors such as training, diet, and lifestyle choices may also influence player attributes and overall performance.
+These findings suggest that age is an important factor in determining player attributes and overall performance, and that the relationship between age and player attributes is complex and non-linear. However, it's important to note that while the given equation and coefficients provide evidence of a significant relationship between age and player attributes, they don't necessarily imply causality. Other factors such as training, diet, and lifestyle choices may also influence player attributes and overall performance.
 
-
-When it comes to player recruitment and contract negotiations, understanding the impact of age on performance is crucial. Teams need to consider the age-related performance trends for different positions to build a well-balanced and sustainable roster. For instance, younger players may be more suitable for positions that require physical strength and speed, while older players may be better suited for positions that demand experience and strategic thinking. By analyzing age-related performance trends, teams can also identify potential bargains in the transfer market, as older players who are still performing at a high level may be undervalued due to their age. On the other hand, investing in younger players with high potential may prove to be a wise long-term strategy.
-
-Overall, understanding the impact of age on player performance is a key factor in building a successful team. Teams must consider this factor when making decisions related to recruitment, contract negotiations, and squad management.
-
+The data can be useful for player recruitment and contract negotiations. Teams need to consider age-related performance trends for different positions to build a well-balanced and sustainable roster. For instance, younger players may be more suitable for positions that require physical strength and speed, while older players may be better suited for positions that demand experience and strategic thinking. By analyzing age-related performance trends, teams can also identify potential bargains in the transfer market, as older players who are still performing at a high level may be undervalued due to their age. Investing in younger players with high potential may also prove to be a wise long-term strategy. Overall, teams must consider age as a significant factor when making decisions related to recruitment, contract negotiations, and squad management.
 
 
 # Results

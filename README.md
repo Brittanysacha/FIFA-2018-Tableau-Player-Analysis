@@ -4,7 +4,7 @@
 The goal of this project was to analyze the FIFA 2018 player dataset and create a dashboard that uncovers different features within the data. I placed a large focus on gaining insight into the trajectory of football player careers across different divisions and leagues in various areas. In addition, I also explored the relationship between a player's overall rating and their performance in various attributes such as speed, shooting, passing, and dribbling, to identify which attributes have the greatest impact on a player's overall rating.
 
 # Process
-### Step 1: Review Dataset:
+## Step 1: Review Dataset:
 
 The FIFA 18 database provided information on football players in the game, including their attributes and preferred positions. The data covered:
 
@@ -14,16 +14,16 @@ The FIFA 18 database provided information on football players in the game, inclu
 
 - Preferred positions categorized as CAM, CB, CDM, CF, CM, LAM, LB, LCB, LCM, LDM, LF, LM, LS, LW, LWB, RAM, RB, RCB, RCM, RDM, RF, RM, RS, RW, RWB, and ST.
 
-### Step 2: Identify which important data type is missing
+## Step 2: Identify which important data type is missing
 There are several important data types that could be added to the FIFA 18 dataset to conduct a thorough analysis of the football ecosystem and factors contributing to a team's success and player performance. For instance, country of play, league, and division level information can help identify trends and patterns across similarly ranked leagues. This is important because comparing a lower-spending and less-established league, such as 3.Liga (the third division in Germany), to a more established, higher-spending league, such as the Premier League (the first division in England), would be inappropriate, as the two leagues differ greatly in terms of spending, resources, and overall level of competition.
 
 Moreover, adding revenue and last season finish data could provide insights into the financial performance of teams and the success of players. Although players on the FIFA dataset are listed as individuals, their clubs' revenue and overall season finish could impact their wage and value. Additionally, data on average fan attendance and injury history could help identify the impact of external factors on a player's performance, morale, and career trajectory. Overall, incorporating these missing data types into future FIFA datasets can improve the accuracy and completeness of game analysis.
 
 I chose to add country of play, league, and division level information to my dataset prior to building visualisations as it was readily available on the FIFA 18 website. I felt this would add significantly to what I might be able to uncover across my visualizations and would overall make them easier to understand.
 
-### Step 3. Build at least 5 different visualizations to learn more about the dataset.
+## Step 3. Build at least 5 different visualizations to learn more about the dataset.
 
-##### Player Positions
+### Player Positions
 
 To get a better understanding of player ratings and the importance of player attributes for different positions, I broke down the 15 player position variables into some four catergories. 
 
@@ -41,7 +41,7 @@ Breaking down the 15 independent variables into 4 catergorical variables made th
 The player breakdown was not surprising. As expected, goalkeepers had the lowest numbers as there is only one goalkeeper on a team of 11 at any given time, and 3-4 are usually listed on a 26-member team sheet at the start of a season. It was also expected to see a higher number of defenders and midfielders compared to strikers. This is because strikers have a more specialized role, with teams relying on a smaller number of them to score goals and create opportunities in the attacking third of the field. On the other hand, defenders and midfielders have a wider range of responsibilities, adapting to various attacking and defending roles based on the opposition and manager's preference.
 
 
-##### Top and Bottom Wages for Clubs on FIFA
+### Top and Bottom Wages for Clubs on FIFA
 I wanted to examine the football players with the highest and lowest wages across various leagues, in order to gain insight into the range of wealth among clubs in different divisions.
 
 ![Highest 10 Club Wages](https://github.com/Brittanysacha/Tableau-Project/blob/main/Images/Highest%2010%20Club%20Wages:Week%20Box%20Plot.png)
@@ -52,7 +52,7 @@ The first graph displays a box plot of the highest 10 club wages per week across
 
 On the other hand, the second graph displays a box plot of the lowest 10 club wages per week across the different football leagues governed by FIFA. From this chart, we can see that the mean weekly wage for these clubs is around €1,000, with a range of €1,000 to €2,000 per week. The box plot shows that there is no IQR, indicating that there is no variability among the lowest wages among the lowest-paying clubs. Since there are no outliers on the lower end, this likely suggests that the minimum wage a footballer would receive playing in a lower-level division would be €1,000/week and that all of these clubs are paying similar wages to their players. It should be noted that these low wages are found within all of the smaller or lower-division leagues across Europe.
 
-##### Average Player Value and Wage by Age
+### Average Player Value and Wage by Age
 The next graph I created aimed to visualize the relationship between age, player value, and wage in football, providing insights into how these variables change over time. The purpose of this graph would be to inform decisions related to player contracts, transfers, and team composition.
 
 ![Average Player Value and Wage by Age]()
@@ -64,7 +64,7 @@ Looking at the graph, we can see that both player value and wage increase until 
 Additionally, we can see that the gap between player value and wage increases as players get older, indicating that older players tend to be paid more relative to their market value. This could be due to factors such as experience, leadership skills, and a player's ability to perform consistently at a high level. Overall, this graph provides insight into the relationship between age, player value, and wage in football. It suggests that while younger players may have high potential, experienced and older players can bring valuable skills and leadership to a team, which may justify their higher wages.
 
 
-#####
+### Distribution of Players by Age, and impact on rating and potential
 
 I next wanted to develop a series of charts that could provide insights into how age can impact a football player's performance (rating) and potential (room for growth). By analysing the distribution of players by age, average player rating by age, and average player potential by age, I hoped to gain a better understanding of the trajectory of a player's career and how age could affects their ability to perform at a high level.
 
@@ -81,10 +81,10 @@ Taken together, these charts suggest that age plays an important role in determi
 These insights are valuable for team managers and talent scouts when making decisions about player recruitment and development. For example, understanding the peak years for players can help teams determine when to invest in younger players with high potential versus older players with more experience and developed skills but lower potential for improvement. Additionally, analyzing the dip in player rating at age of 33 can help teams better understand the potential risks of keeping older players on the team, as they may experience a decline in physical ability and overall performance.
 
 
-## Results
+# Results
 I chose to complete this assignment based on the FIFA 18 database. I had a few main questions I wanted to answer using my data:
 
-##### Question 1. What is the distribution of players accross different leagues and nationalities in FIFA 18?
+## Question 1. What is the distribution of players accross different leagues and nationalities in FIFA 18?
 
 The FIFA 18 dataset contains information on over 17,000 players from various leagues and countries. Using Tableau, the data is visualised through two interactive maps to showcase the distribution of players across different leagues and nationalities.
 
@@ -93,7 +93,7 @@ The league visualisation showcases that the highest concentration of players fro
 Regarding nationality, the map shows that the majority of players in FIFA 18 originate from European countries such as Spain, Germany, France, and England, followed by South American countries like Brazil and Argentina. Nonetheless, there is a much larger representation of different countries with footballers originating from places where leagues are not included within the game. When looking further into nationality via different leagues, the visualisation further highlights that players in second division leagues are more likely to play in their local country. This could be associated with lower skilled players receiving lower wages among lower division leagues, which may make it more difficult to move around freely.
 
 
-##### Question 2. How do the skills and attributes of football players vary across different nationalities?
+## Question 2. How do the skills and attributes of football players vary across different nationalities?
 
 I created a second set of map visualisations to gain a better understanding of how various attributes of football players, such as dribbling, shooting, passing, and physicality, can vary across nationalities. Since certain regions in Europe and South America have more than one division and, thus, a diverse range of players, I deemed it necessary to not only consider the overall average but also to look at the average of the top 10 players from each region.
 
@@ -109,7 +109,7 @@ The visualisations reveal some interesting findings. For example:
 
 Overall, variations in the skills and attributes of football players across different nationalities could be attributed to a combination of cultural and environmental factors, as well as differences in training and development programmes. Nonetheless, it is important to note that these are general trends and that individual players' skills vary greatly across regions. This visualisation could gain better accuracy if the average player attributes were further broken down into separate maps based on division level (1st, 2nd, 3rd, 4th), or team ranking, which is an official feature by FIFA that ranks teams based on their performance in international competitions over the past four years.
 
-##### Question 3. How does the aggregate player value differ across various football leagues and divisions?
+## Question 3. How does the aggregate player value differ across various football leagues and divisions?
 I created an interactive series of visualizations to better understand the lack of parity across football leagues and divisions within FIFA. They were broken down into first division teams, second division teams, and then third and fourth division teams. It is important to note that Germany and England were the only countries to have more than two divisions represented in the game.
 
 After reviewing the aggregate player values across leagues and divisions, it is apparent that the aggregate player value differs significantly not just across various football leagues and divisions but also within leagues and divisions. The leagues with the highest aggregate player values are the five biggest leagues in Europe:
@@ -124,7 +124,7 @@ Looking at individual clubs within the English Premier League as an example of d
 
 Overall, aggregate player value in football varies greatly across different leagues and divisions, with the top-tier leagues having significantly higher values compared to the lower divisions. A further step to gain further insight from this information would be to look at the correlation between league placement and player value or wages. I anticipate that those with higher team values would perform significantly better, although it would be interesting to observe differences among similarly valued teams.
 
-##### Question 4. How do the different attributes contribute to the overall rating of each player?
+## Question 4. How do the different attributes contribute to the overall rating of each player?
 The final visualisation used was a heat map to determine the presence of high attributes across player positions. A few examples of some highlights that can be drawn from the data are included below:
 
 - Strikers (ST) need attributes such as strength, positioning, finishing, and shot power. This indicates that the traits required from players best suited to be a striker include the ability to score goals, hold up play and be physical with defenders.
@@ -143,10 +143,10 @@ Further examples can be obtained by analyzing the heat map data, which can provi
 
 Moreover, heat map analysis can be a useful tool for scouts and managers when assessing potential new recruits or deciding on player positions within their team. By identifying a player's strengths and weaknesses based on their heat map data, coaches can guide them towards roles that best suit their skill set, or alternatively, help them develop the attributes needed to succeed in a different position. This can lead to a more effective use of resources and better team performance overall.
 
-## Challenges 
+# Challenges 
 I did not have full access to all the data available on the FIFA 18 website in the FIFA 18 dataset. As a result, I manually added team information such as their league, country, and division. If I had relied only on readily available data, my results would have been inaccurate due to the large differences across divisions in terms of spending, resources, player ratings, and overall level of competition.
 
 Furthermore, I encountered a slight issue while trying to format my map within Tableau. To separate the different regions of the UK and be able to look at all the data, I had to use a dual axis map. Without this, the default setting for the United Kingdom was to refer only to English data. This would not only have created inaccuracy and led to missing data, but it could also have potentially offended certain people.
 
-## Future Goals
+# Future Goals
 In terms of future research, it would be interesting to explore the impact of factors such as spending, resources, player ratings, and level of competition on aggregate player value. Additionally, looking at the correlation between team values and performance could provide valuable insights into the relationship between spending and success in football.

@@ -86,8 +86,9 @@ These insights are valuable for team managers and talent scouts when making deci
 
 I have created two visualizations to explore correlations between player ages, attributes, and ratings within specific positions, with the purpose of identifying potential connections between age and player performance.
 
-![Player Performance by Age - Position]()
-![Player Performance by Age - Attribute]()
+![Player Performance by Age - Position](https://github.com/Brittanysacha/Tableau-Project/blob/main/Images/Player%20Performance%20by%20Age%20-%20Position.png)
+
+![Player Performance by Age - Attribute](https://github.com/Brittanysacha/Tableau-Project/blob/main/Images/Player%20Performance%20by%20Age%20-%20Attribute.png)
 
 - Please note that full access to different variables and their resulting correlations can be found [here](https://public.tableau.com/shared/DJJ9WP584?:display_count=n&:origin=viz_share_link) 
 
@@ -99,9 +100,8 @@ These findings suggest that age is an important factor in determining player att
 
 The data can be useful for player recruitment and contract negotiations. Teams need to consider age-related performance trends for different positions to build a well-balanced and sustainable roster. For instance, younger players may be more suitable for positions that require physical strength and speed, while older players may be better suited for positions that demand experience and strategic thinking. By analyzing age-related performance trends, teams can also identify potential bargains in the transfer market, as older players who are still performing at a high level may be undervalued due to their age. Investing in younger players with high potential may also prove to be a wise long-term strategy. Overall, teams must consider age as a significant factor when making decisions related to recruitment, contract negotiations, and squad management.
 
-
 # Results
-I chose to complete this assignment based on the FIFA 18 database. I had a few main questions I wanted to answer using my data:
+I chose to complete this assignment based on the FIFA 18 database. I had a few main questions I wanted to answer using my data
 
 ## Question 1. What is the distribution of players accross different leagues and nationalities in FIFA 18?
 
@@ -161,6 +161,9 @@ The final visualisation used was a heat map to determine the presence of high at
 Further examples can be obtained by analyzing the heat map data, which can provide valuable insights into the specific areas that aspiring or developing players need to focus on to excel in a particular position. By identifying these key areas, coaches and trainers can help players improve their skills and work towards mastering the position they wish to play in.
 
 Moreover, heat map analysis can be a useful tool for scouts and managers when assessing potential new recruits or deciding on player positions within their team. By identifying a player's strengths and weaknesses based on their heat map data, coaches can guide them towards roles that best suit their skill set, or alternatively, help them develop the attributes needed to succeed in a different position. This can lead to a more effective use of resources and better team performance overall.
+
+ Full access to to the charts discussed in the results can be found [here](https://public.tableau.com/shared/DJJ9WP584?:display_count=n&:origin=viz_share_link). 
+
 
 # Challenges 
 I did not have full access to all the data available on the FIFA 18 website in the FIFA 18 dataset. As a result, I manually added team information such as their league, country, and division. If I had relied only on readily available data, my results would have been inaccurate due to the large differences across divisions in terms of spending, resources, player ratings, and overall level of competition.

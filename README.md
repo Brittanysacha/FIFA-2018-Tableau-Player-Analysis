@@ -1,4 +1,4 @@
-# Final-Project-Tableau
+# FIFA 2018 Player Data and Career Trajectories
 
 # Project/Goals
 The aim of this project was to analyse the FIFA 2018 game dataset and create a dashboard that uncovers different trends and patterns across leagues, countries, and players. I placed a large focus on gaining insight into the trajectory of football player careers across different divisions and leagues. Additionally, I also explored the relationship between a player's overall rating, position, and performance in relation to various attributes such as speed, shooting, passing, and dribbling.

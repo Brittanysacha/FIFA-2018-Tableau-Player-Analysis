@@ -50,4 +50,4 @@ With more time, the following improvements and research could be conducted:
 - Conducting longitudinal studies to identify trends over time.
 
 
-For a more comprehensive analysis of findings and analysis please see [here](https://github.com/Brittanysacha/Tableau---FIFA-2018-Player-Data-and-Career-Trajectories/blob/main/Comprehensive%20Analysis.md)
+For a more comprehensive analysis please see [here](https://github.com/Brittanysacha/Tableau---FIFA-2018-Player-Data-and-Career-Trajectories/blob/main/Comprehensive%20Analysis.md)
